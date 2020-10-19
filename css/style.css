@@ -486,7 +486,6 @@ img {
 
 .customers .title {
   margin-bottom: 50px;
-  margin-top: 94px;
 }
 
 .customer-list {
@@ -668,7 +667,7 @@ img {
 
 .mail-btn {
   align-items: center;
-  display: block;
+  display: inline-block;
   font-family: var(--secondary-font);
   font-style: normal;
   font-weight: 700;
@@ -686,13 +685,12 @@ img {
   cursor: pointer;
 
   margin-left: 12px;
-  
 }
 
 .icon-send {
   width: 25px;
   height: 24px;
-
+}
 
 /* PORTFOLIO */
 .navigation-filter {
