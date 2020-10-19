@@ -667,7 +667,8 @@ img {
 
 .mail-btn {
   align-items: center;
-  display: inline-block;
+  display: flex;
+  justify-content: center;
   font-family: var(--secondary-font);
   font-style: normal;
   font-weight: 700;
@@ -685,11 +686,7 @@ img {
   cursor: pointer;
 
   margin-left: 12px;
-}
-
-.icon-send {
-  width: 25px;
-  height: 24px;
+  padding: 6px 22px;
 }
 
 /* PORTFOLIO */
